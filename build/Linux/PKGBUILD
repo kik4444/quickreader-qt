@@ -1,0 +1,27 @@
+# Maintainer: quickreader <quickreader at mail dot bg>
+
+pkgname='quickreader'
+pkgver=1.0dev
+pkgrel=1
+pkgdesc='https://gitlab.com/quickreader/quickreader'
+arch=('x86_64')
+url="https://gitlab.com/$pkgname/$pkgname"
+license=('GPL3')
+depends=('bzip2' 'gcc-libs' 'glib2' 'glibc' 'icu' 'libgcrypt' 'libgpg-error' 'lz4' 'pcre' 'pcre2' 'systemd-libs' 'xz' 'zlib' 'zstd' 'double-conversion' 'freetype2' 'graphite' 'harfbuzz' 'libglvnd' 'libpng' 'libx11' 'libxau' 'libxcb' 'libxdmcp' 'md4c' 'qt5-base')
+source=("https://gitlab.com/$pkgname/$pkgname/-/archive/$pkgver/$pkgname-$pkgver.tar.gz")
+sha256sums=('845ab223f49a4073c50ae6e59de4addb7c6e1b436c7b8211a023ac0d688744ca')
+
+build() {
+    cd "$srcdir/$pkgname-$pkgver/build/Linux"
+    qmake -o Makefile ../../QuickReader.pro -spec linux-g++ CONFIG+=qtquickcompiler
+    make -f Makefile -j$(nproc)
+}
+
+package() {
+    mkdir -vp "$pkgdir/usr/bin"
+    mkdir -vp "$pkgdir/usr/share/applications"
+    mkdir -vp "$pkgdir/usr/share/icons/hicolor/scalable/apps"
+    install -m 755 "$srcdir/$pkgname-$pkgver/build/Linux/QuickReader" "$pkgdir/usr/bin/"
+    install -m 644 "$srcdir/$pkgname-$pkgver/Assets/$pkgname.desktop" "$pkgdir/usr/share/applications"
+    install -m 644 "$srcdir/$pkgname-$pkgver/Assets/$pkgname-icon.svg" "$pkgdir/usr/share/icons/hicolor/scalable/apps"
+}

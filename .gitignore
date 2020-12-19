@@ -4,6 +4,7 @@ build/Windows/*
 
 # Unignore the Linux makefile
 !build/Linux/Makefile
+!build/Linux/PKGBUILD
 
 # The pro user files are not needed
 QuickReader.pro.user*
