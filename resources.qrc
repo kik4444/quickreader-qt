@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>Assets/back.svg</file>
+        <file>Assets/copy.svg</file>
+        <file>Assets/font.svg</file>
+        <file>Assets/forward.svg</file>
+        <file>Assets/open.svg</file>
+        <file>Assets/paste.svg</file>
+        <file>Assets/pause.svg</file>
+        <file>Assets/play.svg</file>
+        <file>Assets/preferences.svg</file>
+        <file>Assets/quickreader icon.svg</file>
+        <file>Assets/redo.svg</file>
+        <file>Assets/restart.svg</file>
+        <file>Assets/save.svg</file>
+        <file>Assets/stop.svg</file>
+        <file>Assets/undo.svg</file>
+        <file>Assets/reset.svg</file>
+        <file>Assets/apply.svg</file>
+        <file>Assets/cancel.svg</file>
+        <file>Assets/clear.svg</file>
+        <file>Assets/Qt.svg</file>
+    </qresource>
+</RCC>
