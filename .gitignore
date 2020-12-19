@@ -1,5 +1,6 @@
-# No need to include the build directories
-build/
+# Ignore the build directories
+build/Linux/*
+build/Windows/*
 
 # Unignore the Linux makefile
 !build/Linux/Makefile
