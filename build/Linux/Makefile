@@ -854,9 +854,9 @@ compiler_rcc_clean:
 qrc_resources.cpp: ../../resources.qrc \
 		/usr/bin/rcc \
 		../../Assets/Qt.svg \
+		../../Assets/quickreader-icon.svg \
 		../../Assets/apply.svg \
 		../../Assets/restart.svg \
-		../../Assets/quickreader\ icon.svg \
 		../../Assets/preferences.svg \
 		../../Assets/reset.svg \
 		../../Assets/save.svg \

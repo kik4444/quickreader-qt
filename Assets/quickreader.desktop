@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=QuickReader
+Icon=/usr/share/icons/hicolor/scalable/apps/quickreader-icon.svg
+Name=QuickReader
+StartupNotify=true
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false

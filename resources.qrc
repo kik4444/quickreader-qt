@@ -9,7 +9,6 @@
         <file>Assets/pause.svg</file>
         <file>Assets/play.svg</file>
         <file>Assets/preferences.svg</file>
-        <file>Assets/quickreader icon.svg</file>
         <file>Assets/redo.svg</file>
         <file>Assets/restart.svg</file>
         <file>Assets/save.svg</file>
@@ -20,5 +19,6 @@
         <file>Assets/cancel.svg</file>
         <file>Assets/clear.svg</file>
         <file>Assets/Qt.svg</file>
+        <file>Assets/quickreader-icon.svg</file>
     </qresource>
 </RCC>
