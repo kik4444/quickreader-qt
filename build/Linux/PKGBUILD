@@ -1,7 +1,7 @@
 # Maintainer: quickreader <quickreader at mail dot bg>
 
 pkgname='quickreader'
-pkgver=1.0dev
+pkgver=1.0dev2
 pkgrel=1
 pkgdesc='A program that enables its user to quickly read through text by encouraging the silencing of their subvocalization.'
 arch=('x86_64')
@@ -13,7 +13,7 @@ sha256sums=('845ab223f49a4073c50ae6e59de4addb7c6e1b436c7b8211a023ac0d688744ca')
 
 build() {
     cd "$srcdir/$pkgname-$pkgver/build/Linux"
-    qmake -o Makefile ../../QuickReader.pro -spec linux-g++ CONFIG+=qtquickcompiler
+    qmake -o Makefile ../../QuickReader.pro -spec linux-g++
     make -f Makefile
 }
 
