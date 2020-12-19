@@ -1,2 +1,5 @@
 # No need to include the build directories
 build/
+
+# The pro user files are not needed
+QuickReader.pro.user*
