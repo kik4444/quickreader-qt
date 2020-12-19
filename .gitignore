@@ -1,5 +1,8 @@
 # No need to include the build directories
 build/
 
+# Unignore the Linux makefile
+!build/Linux/Makefile
+
 # The pro user files are not needed
 QuickReader.pro.user*
