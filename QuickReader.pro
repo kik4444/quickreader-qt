@@ -32,11 +32,6 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-unix {
-    target.path = /usr/bin
-    INSTALLS = target
-}
-
 RESOURCES += \
     resources.qrc
 
