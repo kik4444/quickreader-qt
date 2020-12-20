@@ -29,7 +29,8 @@ You may also build it yourself by following the same instructions from `Linux ma
 
 # Linux install
 
-An Arch Linux PKGBUILD is available in the AUR at https://aur.archlinux.org/packages/quickreader
+Arch Linux
+- A pre-built pkg is available in the releases page. A PKGBUILD is available in the AUR at https://aur.archlinux.org/packages/quickreader
 
 # Linux manual install
 
