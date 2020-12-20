@@ -10,7 +10,7 @@ Demo Video:
 
 # Features
 
-This program encourages the silencing of the user's subvocalization by quickly going through the inputted text quickly. The text is displayed below the input field in big letters and the words are swapped multiple times per second. This will encourage the user to quietly accept the words without reading them pronouncing them silently in their head, resulting in faster comprehension.
+This program encourages the silencing of the user's subvocalization by quickly going through the inputted text. The text is displayed below the input field and the words are changed multiple times per second. This will encourage the user to quietly accept the words without pronouncing them silently in their head, resulting in faster comprehension.
 
 - Changeable words per minute speed and chunk size
 - Dynamically calculated duration of the time to read all the text inputted
