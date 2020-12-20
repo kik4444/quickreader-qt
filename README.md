@@ -8,19 +8,30 @@ This is my first piece of free open source software, so I hope it meets your exp
 Demo Video:
 ![](Assets/Demo.mp4)
 
+# Features
+
+This program encourages the silencing of the user's subvocalization by quickly going through the inputted text quickly. The text is displayed below the input field in big letters and the words are swapped multiple times per second. This will encourage the user to quietly accept the words without reading them pronouncing them silently in their head, resulting in faster comprehension.
+
+- Changeable words per minute speed and chunk size
+- Dynamically calculated duration of the time to read all the text inputted
+- Saving to and opening from text files
+- Changing the font size and style of the displayed words
+- Jumping back and forth with the arrow keys and pausing with space
+- Configurable text input font size, jumping distance with the arrow keys, remembering and restoring position in text, variable speed to slow down the time until the next word if the current one is too long
+
 # Windows install
 
-1. Download the archive containing the Windows binaries for your version
+1. Download the archive containing the Windows binaries for your version (64bit or 32bit)
 2. Extract the archive in a directory of your choosing
-3. Run the executable
+3. Run the executable from that directory
 
 # Linux install
 
-An Arch Linux build is available in the AUR at
+An Arch Linux PKGBUILD is available in the AUR at
 
 # Linux manual install
 
-1. Install `qt5-base` and `hicolor-icon-theme` for your local distribution
+1. Make sure `qt5-base` and `hicolor-icon-theme` are installed in your local distribution as well as the programs `make` and `qmake`
 2. Git clone this repo and cd into it
 3. Execute
     - `mkdir build && cd build`
