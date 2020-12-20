@@ -130,9 +130,6 @@ void QuickReader::updateChunkCount(QString chunkIndex)
 
 void QuickReader::updateWord()
 {
-    //Set focus on the text field to make the cursor highlight more visible particularly on Windows systems
-    ui->textEdit->setFocus();
-
     if (step != (unsigned int)delimText.count())
     {
         //Slow down speed if chunk size exceeds user-defined threshold
@@ -190,6 +187,7 @@ void QuickReader::on_restartButton_clicked()
 {
     step = 0;
     ui->textEdit->setTextCursor(QTextCursor());
+    ui->textEdit->setFocus();
     updateWord();
 }
 
@@ -197,6 +195,9 @@ void QuickReader::on_startButton_clicked()
 {
     if (!running)
     {
+        //Set focus on the text field to make the cursor highlight more visible particularly on Windows systems
+        ui->textEdit->setFocus();
+
         ui->startButton->setText(QString("Pause"));
         ui->startButton->setIcon(QIcon(":/icons/Assets/pause.svg"));
         ui->stopButton->setEnabled(true);
@@ -266,7 +267,7 @@ void QuickReader::on_horizontalSlider_sliderMoved(int position)
 
     //Find the absolute character position of the chosen position in the text
     unsigned long long charPos = 0;
-    for (unsigned long long i = 0; i <= (unsigned long long)position; i++)
+    for (unsigned long long i = 0; i < (unsigned long long)position; i++)
         charPos += delimText.at(i).count();
 
     cursor.setPosition(charPos, QTextCursor::MoveAnchor);
