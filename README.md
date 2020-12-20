@@ -40,6 +40,6 @@ Arch Linux
     - `mkdir build && cd build`
     - `qmake -o Makefile ../QuickReader.pro -spec linux-g++`
     - `make -f Makefile`
-    - `install -m 755 QuickReader /usr/bin`
+    - `install -m 755 quickreader /usr/bin`
     - `install -m 644 ../Assets/quickreader.desktop /usr/share/applications`
     - `install -m 644 ../Assets/quickreader-icon.svg /usr/share/icons/hicolor/scalable/apps`
