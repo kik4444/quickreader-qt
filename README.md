@@ -21,8 +21,8 @@ This program encourages the silencing of the user's subvocalization by quickly g
 
 # Windows 10 install
 
-1. Download the archives containing the Windows 10 binaries for your version (64bit or 32bit). They are split in 2 parts due to size limits.
-2. Extract the archive in a directory of your choosing
+1. Download the archives from the releases page for your version (64bit or 32bit). They are split in 2 parts due to size limits.
+2. Extract the archives in a directory of your choosing
 3. Run the executable from that directory
 
 You may also build it yourself by following the same instructions from `Linux manual install`
