@@ -27,7 +27,7 @@ This program encourages the silencing of the user's subvocalization by quickly g
 
 # Linux install
 
-An Arch Linux PKGBUILD is available in the AUR at
+An Arch Linux PKGBUILD is available in the AUR at https://aur.archlinux.org/packages/quickreader
 
 # Linux manual install
 
