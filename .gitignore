@@ -2,8 +2,5 @@
 build/Linux/*
 build/Windows/*
 
-# Unignore some build instructions
-!build/Linux/PKGBUILD
-
 # The pro user files are not needed
 QuickReader.pro.user*
