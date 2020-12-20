@@ -19,11 +19,13 @@ This program encourages the silencing of the user's subvocalization by quickly g
 - Jumping back and forth with the arrow keys and pausing with space
 - Configurable text input font size, jumping distance with the arrow keys, remembering and restoring position in text, variable speed to slow down the time until the next word if the current one is too long
 
-# Windows install
+# Windows 10 install
 
-1. Download the archive containing the Windows binaries for your version (64bit or 32bit)
+1. Download the archives containing the Windows 10 binaries for your version (64bit or 32bit). They are split in 2 parts due to size limits.
 2. Extract the archive in a directory of your choosing
 3. Run the executable from that directory
+
+You may also build it yourself by following the same instructions from `Linux manual install`
 
 # Linux install
 
