@@ -6,7 +6,7 @@ You should have received a copy of the GNU General Public License along with thi
 This is my first piece of free open source software, so I hope it meets your expectations of quality and may it serve you well.
 
 Demo Video:
-![](Assets/Demo.mp4)
+![](https://gitlab.com/quickreader/quickreader/uploads/22d3fd6fc4c5ec45f553ead82e48014c/Demo.mp4)
 
 # Features
 
