@@ -224,7 +224,7 @@
      <item>
       <widget class="QLabel" name="label_4">
        <property name="text">
-        <string>Jump back  chunks</string>
+        <string>Jump back chunks</string>
        </property>
       </widget>
      </item>
@@ -264,7 +264,7 @@
      <item>
       <widget class="QLabel" name="label_5">
        <property name="text">
-        <string>Jump forward  chunks</string>
+        <string>Jump forward chunks</string>
        </property>
       </widget>
      </item>

@@ -4,3 +4,6 @@ build/Windows/*
 
 # The pro user files are not needed
 QuickReader.pro.user*
+
+# Separate the video cause it's too big
+Assets/Demo.mp4
