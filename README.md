@@ -25,8 +25,6 @@ This program encourages the silencing of the user's subvocalization by quickly g
 2. Extract the archives in a directory of your choosing
 3. Run the executable from that directory
 
-You may also build it yourself by following the same instructions from `Linux manual install`
-
 # Linux install
 
 Arch Linux
