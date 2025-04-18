@@ -5,8 +5,8 @@ Quick Reader is free/libre open source software released under GPL. The source c
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/
 This is my first piece of free open source software, so I hope it meets your expectations of quality and may it serve you well.
 
-Demo Video:
-![](https://gitlab.com/quickreader/quickreader/uploads/22d3fd6fc4c5ec45f553ead82e48014c/Demo.mp4)
+## Demo video:
+https://github.com/user-attachments/assets/1abe02ba-c669-4794-8bd2-4ff6e91aba7d
 
 # Features
 
